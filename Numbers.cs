@@ -9,6 +9,8 @@ namespace Strategy_Pattern
 {
     public class Numbers
     {
+        Bubblesort MyBubblesort = new Bubblesort();
+
         public static void Fill(int[] arr)
         {
             Random rnd = new Random();
@@ -37,7 +39,7 @@ namespace Strategy_Pattern
                 switch (path)
                 {
                     case "A":
-                        
+                        MyBubblesort.Sort(arr);
                         A = false;
 
                         break;

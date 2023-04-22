@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Strategy_Pattern;
 
 namespace Strategy_Pattern
 {
-    public class Bubblesort: ISort
+    public class Bubblesort : ISort
     {
-        public static void Sort(int[] arr)
+        public void Sort(int[] arr)
         {
             int temp = 0;
 

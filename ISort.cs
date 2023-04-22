@@ -8,6 +8,6 @@ namespace Strategy_Pattern
 {
 interface ISort
     {
-        void Sort();
+        void Sort(int[] arr);
     }
 }
